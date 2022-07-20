@@ -60,6 +60,7 @@ font-family: Roboto,sans-serif;}
     text-align: center;
     letter-spacing: 0.06em;}
 .nav-button {background-color: #F5F4FA;
+    font-family: inherit;
     color: var(--second-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -139,3 +140,16 @@ font-family: Roboto,sans-serif;}
     color: rgba(255, 255, 255, 0.6);}
 ul {list-style: none;}
 .link {text-decoration: none;}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
